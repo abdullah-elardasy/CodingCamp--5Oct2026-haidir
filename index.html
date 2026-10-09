@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>📋 My Dashboard</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div id="error-banner" hidden></div>
+
+  <header class="dashboard-header">
+    <span class="header-title">📋 My Dashboard</span>
+    <button id="theme-toggle" class="btn btn-secondary" aria-label="Toggle dark/light mode">🌙 Dark</button>
+  </header>
+
+  <main class="dashboard-grid">
+
+    <section id="greeting-widget" class="widget">
+      <h2>👋 Greeting</h2>
+    </section>
+
+    <section id="focus-timer-widget" class="widget">
+      <h2>⏱ Focus Timer</h2>
+    </section>
+
+    <section id="todo-list-widget" class="widget">
+      <h2>✅ To-Do List</h2>
+    </section>
+
+    <section id="quick-links-widget" class="widget">
+      <h2>🔗 Quick Links</h2>
+    </section>
+
+  </main>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

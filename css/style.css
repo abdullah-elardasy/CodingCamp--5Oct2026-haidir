@@ -1,0 +1,500 @@
+/* =============================================
+   Design Tokens — Light Mode (default)
+   ============================================= */
+:root {
+  --bg:           #f0f4f8;
+  --surface:      #ffffff;
+  --surface-2:    #f8fafc;
+  --border:       #e2e8f0;
+  --text:         #1e293b;
+  --text-muted:   #64748b;
+  --accent:       #6366f1;
+  --accent-hover: #4f46e5;
+  --danger:       #ef4444;
+  --success:      #22c55e;
+  --warning:      #f59e0b;
+  --radius:       12px;
+  --shadow:       0 1px 3px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.06);
+  --shadow-lg:    0 4px 6px rgba(0, 0, 0, 0.07), 0 10px 15px rgba(0, 0, 0, 0.08);
+}
+
+/* =============================================
+   Design Tokens — Dark Mode
+   ============================================= */
+html[data-theme="dark"] {
+  --bg:        #0f172a;
+  --surface:   #1e293b;
+  --surface-2: #273548;
+  --border:    #334155;
+  --text:      #f1f5f9;
+  --text-muted:#94a3b8;
+  --shadow:    0 1px 3px rgba(0, 0, 0, 0.4);
+  --shadow-lg: 0 4px 6px rgba(0, 0, 0, 0.3), 0 10px 15px rgba(0, 0, 0, 0.35);
+}
+
+/* =============================================
+   Base Reset
+   ============================================= */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* =============================================
+   Body
+   ============================================= */
+body {
+  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  min-height: 100vh;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+/* =============================================
+   Error Banner
+   ============================================= */
+#error-banner:not([hidden]) {
+  display: block;
+  background: var(--danger);
+  color: #fff;
+  padding: 10px 20px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  border-radius: 0 0 8px 8px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+/* =============================================
+   Header
+   ============================================= */
+.dashboard-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 20px;
+  background: var(--surface);
+  border-bottom: 1px solid var(--border);
+  box-shadow: var(--shadow);
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  transition: background 0.3s ease, border-color 0.3s ease;
+}
+
+.header-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--text);
+  letter-spacing: -0.01em;
+}
+
+/* =============================================
+   Dashboard Grid Layout
+   ============================================= */
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+@media (max-width: 639px) {
+  .dashboard-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* =============================================
+   Widget Card
+   ============================================= */
+.widget {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 20px;
+  box-shadow: var(--shadow);
+  transition: box-shadow 0.2s ease, background 0.3s ease, border-color 0.3s ease;
+}
+
+.widget:hover {
+  box-shadow: var(--shadow-lg);
+}
+
+/* =============================================
+   Widget Headings
+   ============================================= */
+.widget h2 {
+  font-weight: 600;
+  color: var(--text);
+  margin-bottom: 16px;
+  line-height: 1.2;
+}
+
+#greeting-widget h2     { font-size: 1.5rem; }
+#focus-timer-widget h2  { font-size: 1.4rem; }
+#todo-list-widget h2    { font-size: 1.3rem; }
+#quick-links-widget h2  { font-size: 1.2rem; }
+
+/* =============================================
+   Buttons — Base
+   ============================================= */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  padding: 8px 16px;
+  border-radius: 8px;
+  border: none;
+  font-size: 0.875rem;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  min-height: 36px;
+  min-width: 36px;
+  white-space: nowrap;
+}
+
+.btn:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+/* Primary */
+.btn-primary {
+  background: var(--accent);
+  color: #fff;
+}
+.btn-primary:hover:not([disabled]):not(.btn-disabled) {
+  background: var(--accent-hover);
+}
+
+/* Secondary */
+.btn-secondary {
+  background: var(--surface-2);
+  color: var(--text);
+  border: 1px solid var(--border);
+}
+.btn-secondary:hover:not([disabled]):not(.btn-disabled) {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+/* Danger */
+.btn-danger {
+  background: transparent;
+  color: var(--danger);
+  border: 1px solid transparent;
+}
+.btn-danger:hover:not([disabled]):not(.btn-disabled) {
+  background: rgba(239, 68, 68, 0.1);
+  border-color: var(--danger);
+}
+
+/* Small */
+.btn-sm {
+  padding: 4px 10px;
+  font-size: 0.8rem;
+  min-height: 28px;
+}
+
+/* Disabled */
+[disabled],
+.btn-disabled {
+  opacity: 0.4;
+  cursor: not-allowed !important;
+  pointer-events: none;
+}
+
+/* =============================================
+   Text Inputs (shared)
+   ============================================= */
+input[type="text"] {
+  padding: 8px 12px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--surface-2);
+  color: var(--text);
+  font-size: 0.875rem;
+  font-family: inherit;
+  transition: border-color 0.15s ease, background 0.3s ease;
+  min-height: 36px;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.15);
+}
+
+input[type="text"]::placeholder {
+  color: var(--text-muted);
+}
+
+/* =============================================
+   Greeting Widget
+   ============================================= */
+#greeting-time {
+  font-size: 3rem;
+  font-weight: 700;
+  color: var(--accent);
+  line-height: 1;
+  letter-spacing: -0.02em;
+}
+
+#greeting-date {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  margin: 4px 0 8px;
+}
+
+#greeting-text {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 16px;
+  color: var(--text);
+}
+
+.greeting-name-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 12px;
+  flex-wrap: wrap;
+}
+
+.greeting-name-row label {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  white-space: nowrap;
+}
+
+#greeting-name-input {
+  flex: 1;
+  min-width: 100px;
+}
+
+/* =============================================
+   Focus Timer Widget
+   ============================================= */
+#timer-display {
+  font-size: 3.5rem;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  font-family: 'Courier New', Courier, monospace;
+  color: var(--accent);
+  text-align: center;
+  margin: 12px 0;
+  letter-spacing: 0.05em;
+}
+
+.timer-controls {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  margin-top: 8px;
+}
+
+#timer-end-indicator {
+  color: var(--success);
+  font-weight: 600;
+  text-align: center;
+  margin-top: 8px;
+  font-size: 1rem;
+}
+
+/* =============================================
+   To-Do List Widget
+   ============================================= */
+.todo-input-row {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+#todo-input {
+  flex: 1;
+}
+
+#todo-duplicate-msg:not([hidden]) {
+  display: block;
+  font-size: 0.8rem;
+  color: var(--warning);
+  margin-bottom: 6px;
+}
+
+#todo-task-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  max-height: 420px;
+  overflow-y: auto;
+  padding-right: 2px;
+}
+
+#todo-task-list::-webkit-scrollbar {
+  width: 4px;
+}
+#todo-task-list::-webkit-scrollbar-track {
+  background: transparent;
+}
+#todo-task-list::-webkit-scrollbar-thumb {
+  background: var(--border);
+  border-radius: 4px;
+}
+
+.task-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 12px;
+  background: var(--surface-2);
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  transition: border-color 0.15s ease;
+}
+
+.task-item:hover {
+  border-color: var(--accent);
+}
+
+.task-checkbox {
+  width: 16px;
+  height: 16px;
+  accent-color: var(--accent);
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.task-text {
+  flex: 1;
+  font-size: 0.875rem;
+  word-break: break-word;
+  color: var(--text);
+}
+
+.task-complete {
+  text-decoration: line-through;
+  color: var(--text-muted);
+}
+
+.task-edit-input {
+  flex: 1;
+  border-color: var(--accent);
+  font-size: 0.875rem;
+}
+
+.task-actions {
+  display: flex;
+  gap: 4px;
+  flex-shrink: 0;
+}
+
+/* =============================================
+   Quick Links Widget
+   ============================================= */
+.links-input-row {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 12px;
+  align-items: flex-start;
+}
+
+.links-input-row input {
+  flex: 1;
+  min-width: 120px;
+}
+
+#quick-links-error:not([hidden]) {
+  display: block;
+  color: var(--danger);
+  font-size: 0.8rem;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+#quick-links-max:not([hidden]) {
+  display: block;
+  color: var(--text-muted);
+  font-size: 0.8rem;
+  font-style: italic;
+  margin-bottom: 8px;
+}
+
+#quick-links-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.link-item {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.link-item a {
+  display: inline-flex;
+  align-items: center;
+  padding: 6px 14px;
+  background: var(--accent);
+  color: #fff;
+  border-radius: 20px;
+  text-decoration: none;
+  font-size: 0.8rem;
+  font-weight: 500;
+  transition: background 0.15s ease;
+  min-height: 32px;
+}
+
+.link-item a:hover {
+  background: var(--accent-hover);
+}
+
+.link-item a:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+.link-delete-btn {
+  background: transparent;
+  border: none;
+  color: var(--text-muted);
+  cursor: pointer;
+  font-size: 0.85rem;
+  padding: 2px 4px;
+  border-radius: 4px;
+  transition: color 0.15s ease;
+  line-height: 1;
+}
+
+.link-delete-btn:hover {
+  color: var(--danger);
+}
+
+.link-delete-btn:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+/* =============================================
+   Responsive — 320px minimum
+   ============================================= */
+@media (max-width: 480px) {
+  #greeting-time { font-size: 2.2rem; }
+  #timer-display  { font-size: 2.5rem; }
+  .timer-controls { flex-wrap: wrap; }
+  .todo-input-row { flex-wrap: wrap; }
+  .todo-input-row #todo-input { min-width: 0; }
+  .links-input-row { flex-direction: column; }
+  .links-input-row input { min-width: 0; width: 100%; }
+}

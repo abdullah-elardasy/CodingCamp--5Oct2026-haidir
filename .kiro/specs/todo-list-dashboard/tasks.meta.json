@@ -1,0 +1,340 @@
+{
+  "pbtResults": {},
+  "executionHistory": {
+    "1.1 Create `index.html` with the full HTML document structure": [
+      {
+        "executionId": "c2cb6ec4-befd-4fc2-b4a1-0e5080a90b03",
+        "chatSessionId": "sess_14572b09-a220-4475-8a12-177655485f1c",
+        "timestamp": 1791558250228
+      },
+      {
+        "executionId": "c2cb6ec4-befd-4fc2-b4a1-0e5080a90b03",
+        "chatSessionId": "sess_14572b09-a220-4475-8a12-177655485f1c",
+        "timestamp": 1791558266499
+      },
+      {
+        "executionId": "c2cb6ec4-befd-4fc2-b4a1-0e5080a90b03",
+        "chatSessionId": "sess_14572b09-a220-4475-8a12-177655485f1c",
+        "timestamp": 1791558327437
+      }
+    ],
+    "1.2 Create `css/style.css` with base reset and grid layout": [
+      {
+        "executionId": "c2cb6ec4-befd-4fc2-b4a1-0e5080a90b03",
+        "chatSessionId": "sess_14572b09-a220-4475-8a12-177655485f1c",
+        "timestamp": 1791558251507
+      },
+      {
+        "executionId": "c2cb6ec4-befd-4fc2-b4a1-0e5080a90b03",
+        "chatSessionId": "sess_14572b09-a220-4475-8a12-177655485f1c",
+        "timestamp": 1791558271147
+      },
+      {
+        "executionId": "c2cb6ec4-befd-4fc2-b4a1-0e5080a90b03",
+        "chatSessionId": "sess_14572b09-a220-4475-8a12-177655485f1c",
+        "timestamp": 1791558331585
+      }
+    ],
+    "1.3 Create `js/app.js` with module scaffolding and `DOMContentLoaded` bootstrap": [
+      {
+        "executionId": "c2cb6ec4-befd-4fc2-b4a1-0e5080a90b03",
+        "chatSessionId": "sess_14572b09-a220-4475-8a12-177655485f1c",
+        "timestamp": 1791558251831
+      },
+      {
+        "executionId": "c2cb6ec4-befd-4fc2-b4a1-0e5080a90b03",
+        "chatSessionId": "sess_14572b09-a220-4475-8a12-177655485f1c",
+        "timestamp": 1791558275599
+      },
+      {
+        "executionId": "c2cb6ec4-befd-4fc2-b4a1-0e5080a90b03",
+        "chatSessionId": "sess_14572b09-a220-4475-8a12-177655485f1c",
+        "timestamp": 1791558335933
+      }
+    ],
+    "2.1 Implement `StorageManager` read, write, parse, and error-display methods": [
+      {
+        "executionId": "c2cb6ec4-befd-4fc2-b4a1-0e5080a90b03",
+        "chatSessionId": "sess_14572b09-a220-4475-8a12-177655485f1c",
+        "timestamp": 1791558252430
+      },
+      {
+        "executionId": "a618f62a-8dc9-4d65-8159-2c57826415e2",
+        "chatSessionId": "sess_14572b09-a220-4475-8a12-177655485f1c",
+        "timestamp": 1791559370822
+      },
+      {
+        "executionId": "a618f62a-8dc9-4d65-8159-2c57826415e2",
+        "chatSessionId": "sess_14572b09-a220-4475-8a12-177655485f1c",
+        "timestamp": 1791559856777
+      }
+    ],
+    "3.1 Implement all `GreetingWidget` methods and clock interval": [
+      {
+        "executionId": "c2cb6ec4-befd-4fc2-b4a1-0e5080a90b03",
+        "chatSessionId": "sess_14572b09-a220-4475-8a12-177655485f1c",
+        "timestamp": 1791558253066
+      },
+      {
+        "executionId": "a618f62a-8dc9-4d65-8159-2c57826415e2",
+        "chatSessionId": "sess_14572b09-a220-4475-8a12-177655485f1c",
+        "timestamp": 1791559862361
+      },
+      {
+        "executionId": "a618f62a-8dc9-4d65-8159-2c57826415e2",
+        "chatSessionId": "sess_14572b09-a220-4475-8a12-177655485f1c",
+        "timestamp": 1791559868051
+      }
+    ],
+    "4.1 Implement `FocusTimerWidget` state machine, tick, format, and render": [
+      {
+        "executionId": "c2cb6ec4-befd-4fc2-b4a1-0e5080a90b03",
+        "chatSessionId": "sess_14572b09-a220-4475-8a12-177655485f1c",
+        "timestamp": 1791558253916
+      },
+      {
+        "executionId": "a618f62a-8dc9-4d65-8159-2c57826415e2",
+        "chatSessionId": "sess_14572b09-a220-4475-8a12-177655485f1c",
+        "timestamp": 1791559862588
+      },
+      {
+        "executionId": "a618f62a-8dc9-4d65-8159-2c57826415e2",
+        "chatSessionId": "sess_14572b09-a220-4475-8a12-177655485f1c",
+        "timestamp": 1791559868304
+      }
+    ],
+    "5.1 Implement `TodoListWidget` CRUD methods": [
+      {
+        "executionId": "c2cb6ec4-befd-4fc2-b4a1-0e5080a90b03",
+        "chatSessionId": "sess_14572b09-a220-4475-8a12-177655485f1c",
+        "timestamp": 1791558254218
+      },
+      {
+        "executionId": "a618f62a-8dc9-4d65-8159-2c57826415e2",
+        "chatSessionId": "sess_14572b09-a220-4475-8a12-177655485f1c",
+        "timestamp": 1791559873314
+      },
+      {
+        "executionId": "a618f62a-8dc9-4d65-8159-2c57826415e2",
+        "chatSessionId": "sess_14572b09-a220-4475-8a12-177655485f1c",
+        "timestamp": 1791559878577
+      }
+    ],
+    "5.2 Implement `TodoListWidget._render()` and `init()`": [
+      {
+        "executionId": "c2cb6ec4-befd-4fc2-b4a1-0e5080a90b03",
+        "chatSessionId": "sess_14572b09-a220-4475-8a12-177655485f1c",
+        "timestamp": 1791558254790
+      },
+      {
+        "executionId": "a618f62a-8dc9-4d65-8159-2c57826415e2",
+        "chatSessionId": "sess_14572b09-a220-4475-8a12-177655485f1c",
+        "timestamp": 1791559884024
+      },
+      {
+        "executionId": "a618f62a-8dc9-4d65-8159-2c57826415e2",
+        "chatSessionId": "sess_14572b09-a220-4475-8a12-177655485f1c",
+        "timestamp": 1791559891570
+      }
+    ],
+    "6.1 Implement `QuickLinksWidget` CRUD methods": [
+      {
+        "executionId": "c2cb6ec4-befd-4fc2-b4a1-0e5080a90b03",
+        "chatSessionId": "sess_14572b09-a220-4475-8a12-177655485f1c",
+        "timestamp": 1791558255325
+      },
+      {
+        "executionId": "a618f62a-8dc9-4d65-8159-2c57826415e2",
+        "chatSessionId": "sess_14572b09-a220-4475-8a12-177655485f1c",
+        "timestamp": 1791559873749
+      },
+      {
+        "executionId": "a618f62a-8dc9-4d65-8159-2c57826415e2",
+        "chatSessionId": "sess_14572b09-a220-4475-8a12-177655485f1c",
+        "timestamp": 1791559879609
+      }
+    ],
+    "6.2 Implement `QuickLinksWidget._render()` and `init()`": [
+      {
+        "executionId": "c2cb6ec4-befd-4fc2-b4a1-0e5080a90b03",
+        "chatSessionId": "sess_14572b09-a220-4475-8a12-177655485f1c",
+        "timestamp": 1791558255778
+      },
+      {
+        "executionId": "a618f62a-8dc9-4d65-8159-2c57826415e2",
+        "chatSessionId": "sess_14572b09-a220-4475-8a12-177655485f1c",
+        "timestamp": 1791559884513
+      },
+      {
+        "executionId": "a618f62a-8dc9-4d65-8159-2c57826415e2",
+        "chatSessionId": "sess_14572b09-a220-4475-8a12-177655485f1c",
+        "timestamp": 1791559892064
+      }
+    ],
+    "7.1 Add CSS styles for `GreetingWidget` and `FocusTimerWidget`": [
+      {
+        "executionId": "c2cb6ec4-befd-4fc2-b4a1-0e5080a90b03",
+        "chatSessionId": "sess_14572b09-a220-4475-8a12-177655485f1c",
+        "timestamp": 1791558256513
+      },
+      {
+        "executionId": "a618f62a-8dc9-4d65-8159-2c57826415e2",
+        "chatSessionId": "sess_14572b09-a220-4475-8a12-177655485f1c",
+        "timestamp": 1791559874232
+      },
+      {
+        "executionId": "a618f62a-8dc9-4d65-8159-2c57826415e2",
+        "chatSessionId": "sess_14572b09-a220-4475-8a12-177655485f1c",
+        "timestamp": 1791559879014
+      }
+    ],
+    "7.2 Add CSS styles for `TodoListWidget` and `QuickLinksWidget`": [
+      {
+        "executionId": "c2cb6ec4-befd-4fc2-b4a1-0e5080a90b03",
+        "chatSessionId": "sess_14572b09-a220-4475-8a12-177655485f1c",
+        "timestamp": 1791558256821
+      },
+      {
+        "executionId": "a618f62a-8dc9-4d65-8159-2c57826415e2",
+        "chatSessionId": "sess_14572b09-a220-4475-8a12-177655485f1c",
+        "timestamp": 1791559884890
+      },
+      {
+        "executionId": "a618f62a-8dc9-4d65-8159-2c57826415e2",
+        "chatSessionId": "sess_14572b09-a220-4475-8a12-177655485f1c",
+        "timestamp": 1791559892473
+      }
+    ],
+    "7.3 Add CSS styles for `#error-banner` and Quick Links error/max messages": [
+      {
+        "executionId": "c2cb6ec4-befd-4fc2-b4a1-0e5080a90b03",
+        "chatSessionId": "sess_14572b09-a220-4475-8a12-177655485f1c",
+        "timestamp": 1791558257177
+      },
+      {
+        "executionId": "a618f62a-8dc9-4d65-8159-2c57826415e2",
+        "chatSessionId": "sess_14572b09-a220-4475-8a12-177655485f1c",
+        "timestamp": 1791559885726
+      },
+      {
+        "executionId": "a618f62a-8dc9-4d65-8159-2c57826415e2",
+        "chatSessionId": "sess_14572b09-a220-4475-8a12-177655485f1c",
+        "timestamp": 1791559892912
+      }
+    ],
+    "8.1 Verify and harden `DOMContentLoaded` bootstrap in `js/app.js`": [
+      {
+        "executionId": "c2cb6ec4-befd-4fc2-b4a1-0e5080a90b03",
+        "chatSessionId": "sess_14572b09-a220-4475-8a12-177655485f1c",
+        "timestamp": 1791558257516
+      },
+      {
+        "executionId": "a618f62a-8dc9-4d65-8159-2c57826415e2",
+        "chatSessionId": "sess_14572b09-a220-4475-8a12-177655485f1c",
+        "timestamp": 1791559886382
+      },
+      {
+        "executionId": "a618f62a-8dc9-4d65-8159-2c57826415e2",
+        "chatSessionId": "sess_14572b09-a220-4475-8a12-177655485f1c",
+        "timestamp": 1791559893449
+      }
+    ],
+    "8.2 Add cross-browser and `file://` compatibility guards": [
+      {
+        "executionId": "c2cb6ec4-befd-4fc2-b4a1-0e5080a90b03",
+        "chatSessionId": "sess_14572b09-a220-4475-8a12-177655485f1c",
+        "timestamp": 1791558257882
+      },
+      {
+        "executionId": "a618f62a-8dc9-4d65-8159-2c57826415e2",
+        "chatSessionId": "sess_14572b09-a220-4475-8a12-177655485f1c",
+        "timestamp": 1791559886996
+      },
+      {
+        "executionId": "a618f62a-8dc9-4d65-8159-2c57826415e2",
+        "chatSessionId": "sess_14572b09-a220-4475-8a12-177655485f1c",
+        "timestamp": 1791559893994
+      }
+    ],
+    "9.1 Create `test.html` with QUnit and fast-check loaded from CDN": [
+      {
+        "executionId": "c2cb6ec4-befd-4fc2-b4a1-0e5080a90b03",
+        "chatSessionId": "sess_14572b09-a220-4475-8a12-177655485f1c",
+        "timestamp": 1791558258179
+      },
+      {
+        "executionId": "a618f62a-8dc9-4d65-8159-2c57826415e2",
+        "chatSessionId": "sess_14572b09-a220-4475-8a12-177655485f1c",
+        "timestamp": 1791559371083
+      },
+      {
+        "executionId": "a618f62a-8dc9-4d65-8159-2c57826415e2",
+        "chatSessionId": "sess_14572b09-a220-4475-8a12-177655485f1c",
+        "timestamp": 1791559899668
+      }
+    ],
+    "1. Scaffold project structure and HTML shell": [
+      {
+        "executionId": "c2cb6ec4-befd-4fc2-b4a1-0e5080a90b03",
+        "chatSessionId": "sess_14572b09-a220-4475-8a12-177655485f1c",
+        "timestamp": 1791558336260
+      }
+    ],
+    "2. Implement StorageManager": [
+      {
+        "executionId": "a618f62a-8dc9-4d65-8159-2c57826415e2",
+        "chatSessionId": "sess_14572b09-a220-4475-8a12-177655485f1c",
+        "timestamp": 1791559857023
+      }
+    ],
+    "3. Implement GreetingWidget": [
+      {
+        "executionId": "a618f62a-8dc9-4d65-8159-2c57826415e2",
+        "chatSessionId": "sess_14572b09-a220-4475-8a12-177655485f1c",
+        "timestamp": 1791559868402
+      }
+    ],
+    "4. Implement FocusTimerWidget": [
+      {
+        "executionId": "a618f62a-8dc9-4d65-8159-2c57826415e2",
+        "chatSessionId": "sess_14572b09-a220-4475-8a12-177655485f1c",
+        "timestamp": 1791559868612
+      }
+    ],
+    "5. Implement TodoListWidget": [
+      {
+        "executionId": "a618f62a-8dc9-4d65-8159-2c57826415e2",
+        "chatSessionId": "sess_14572b09-a220-4475-8a12-177655485f1c",
+        "timestamp": 1791559891748
+      }
+    ],
+    "6. Implement QuickLinksWidget": [
+      {
+        "executionId": "a618f62a-8dc9-4d65-8159-2c57826415e2",
+        "chatSessionId": "sess_14572b09-a220-4475-8a12-177655485f1c",
+        "timestamp": 1791559892181
+      }
+    ],
+    "7. CSS widget-specific styles and interactive states": [
+      {
+        "executionId": "a618f62a-8dc9-4d65-8159-2c57826415e2",
+        "chatSessionId": "sess_14572b09-a220-4475-8a12-177655485f1c",
+        "timestamp": 1791559893214
+      }
+    ],
+    "8. Integration wiring and cross-browser compatibility": [
+      {
+        "executionId": "a618f62a-8dc9-4d65-8159-2c57826415e2",
+        "chatSessionId": "sess_14572b09-a220-4475-8a12-177655485f1c",
+        "timestamp": 1791559894157
+      }
+    ],
+    "9. Property-based test harness": [
+      {
+        "executionId": "a618f62a-8dc9-4d65-8159-2c57826415e2",
+        "chatSessionId": "sess_14572b09-a220-4475-8a12-177655485f1c",
+        "timestamp": 1791559899898
+      }
+    ]
+  }
+}
